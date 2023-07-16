@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1877f2;
+}
+.title{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.text{
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+margin-top: 5px;
+color: white;
+text-shadow: 3px 3px black;
+}
+.input{
+    background-color: aliceblue;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    
+}
+.inp{
+   text-align: center;
+    margin-top: 70px;
+}
+.inpt{
+   text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    width: 250px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: blue;
+   
+    margin-top: 20px;
+}
+.btt{
+    text-align: center;
+}
+.ahref, a{
+    text-decoration: none;
+color: aliceblue;
+font-family: sans-serif;
+font-size: 1rem;
+text-align: center;
+margin-top: 10px;
+}
+.ptag{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top:50px ;
+}
+.buttn{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+background-color: aliceblue;
+font-family: sans-serif;
+font-weight: bolder;
+color: blue;
+border-color: blue;
+margin-top: 50px;
+}
+.creat{
+    text-align: center;
+    color: blue;
+}
+.meta{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .input{
+        width: 200px;
+    }
+    .btn{
+        width: 200px;
+    }
+    .buttn{
+        width: 200px;
+    }
+}
